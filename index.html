@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Financial Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <h1>Financial Calculator</h1>
+        
+        <div class="calculation">
+            <h2>Interest Rate Calculation</h2>
+            <input type="number" id="principal-interest" placeholder="Principal">
+            <input type="number" id="rate-interest" placeholder="Rate (in %)">
+            <input type="number" id="time-interest" placeholder="Time (in years)">
+            <button id="calculate-interest">Calculate Interest</button>
+            <p id="result-interest"></p>
+        </div>
+
+        <div class="calculation">
+            <h2>Loan Payment Calculation</h2>
+            <input type="number" id="principal-loan" placeholder="Principal">
+            <input type="number" id="rate-loan" placeholder="Rate (in %)">
+            <input type="number" id="time-loan" placeholder="Time (in years)">
+            <button id="calculate-loan">Calculate Loan Payment</button>
+            <p id="result-loan"></p>
+        </div>
+
+        <div class="calculation">
+            <h2>Investment Return Calculation</h2>
+            <input type="number" id="principal-investment" placeholder="Principal">
+            <input type="number" id="rate-investment" placeholder="Rate (in %)">
+            <input type="number" id="time-investment" placeholder="Time (in years)">
+            <input type="number" id="compounds-investment" placeholder="Compounds per year">
+            <button id="calculate-investment">Calculate Investment Return</button>
+            <p id="result-investment"></p>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
